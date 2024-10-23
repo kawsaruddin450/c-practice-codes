@@ -3,9 +3,12 @@
 
 int main(){
     
-    int a = (int) 1.999999;
+    // operator precedence
+    int a = 4+9*10;
+    printf("%d\n", a);
 
-    printf("%d", a);
+    int b = 4*3/6*2;
+    printf("%d", b);
     
     return 0;
 }
