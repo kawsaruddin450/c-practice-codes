@@ -1,12 +1,14 @@
 #include<stdio.h>
+#include<math.h>
 
 int main(){
     
-    int age;
-    printf("Please enter your age: ");
-    scanf("%d", &age);
+    int a = 6;
+    int b = 3;
 
-    printf("Your age is: %d", age);
+    int power = pow(a,b);
+
+    printf("%d", power);
     
     return 0;
 }
