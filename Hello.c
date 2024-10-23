@@ -3,12 +3,9 @@
 
 int main(){
     
-    int a = 6;
-    int b = 3;
+    int a = (int) 1.999999;
 
-    int power = pow(a,b);
-
-    printf("%d", power);
+    printf("%d", a);
     
     return 0;
 }
